@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Poppins;
+    font-family: DM Sans;
+}
+@media screen and (max-width: 1024px){
+    
+    header{
+        overflow: hidden;
+        background: url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 6\ \(2\).png), url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 5.png), url(./images/Circle\ 1.png), url(./images/Circle\ 2\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: 30%, 2%, 22%, 20%, 6%, 90%;
+            background-position-x: -182px, 612px, 747px, 830px, 1465px, 1148px;
+        background-position-y: -249px,992px, 220px, 1610px, 715px, -44px;
+        max-width: 100%;
+        margin: 0 0;
+        &>.container{
+            padding: 56px 0px;
+    
+            &>nav{
+               
+    
+                &>.hero1{
+                    display: flex;
+                    align-items: center;
+                   gap: 90px;
+                    
+                    &>.home{
+                        display: flex;
+                        gap: 50px;
+                        &>.collab{
+                            display: flex;
+                            align-items: center;
+                            gap: 11px;
+                            &>.collab-text{
+                                color: var(--text-dark, #292930);
+                                font-family: Poppins;
+                                font-size: 28px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 97.827%;
+                                letter-spacing: -0.84px;
+                                &>.nuqta{
+                                    color: var(--color-primary, #5956E9);
+                                    font-family: Poppins;
+                                    font-size: 28px;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: 97.827%;
+                                    letter-spacing: -0.84px;
+                                }
+                            }
+    
+                        }
+                        &>ul{
+                            display: flex;
+                            align-items: center;
+                            gap: 50px;
+                            &>li{
+                               
+                                &>a{
+                                    color: var(--text-grey, #999FAE);
+                                    font-family: Poppins;
+                                    font-size: 15px;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    line-height: normal;
+                                    letter-spacing: -0.64px;
+                                }
+                                a:hover{
+                                    color: #292930;
+                                    border-bottom: 2px solid #5956E9;
+                                }
+                                &>.active{
+                                    color: #292930;
+                                    border-bottom: 2px solid #5956E9;
+    
+                                }
+                            }
+                           
+                        }
+                    }
+                    &>.search-btn{
+                        display: flex;
+                        align-items: center;
+                        gap: 40px;
+                        &>.search{
+                            color: #292930;
+                        }
+                        &>.get-btn{
+                            &>a{
+                                color: #2522BA;
+                                text-align: center;
+                                font-family: Poppins;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                letter-spacing: -0.64px;
+    
+                            }
+                            width: 180px;
+                            height: 72px;
+                            flex-shrink: 0;
+                            border-radius: 20px;
+                            background: #FAB8C4;
+                            padding: 24px 47px;
+                        }
+                    }
+                }
+            }
+    
+            &>.hero2{
+                display: flex;
+                margin: 0 90px;
+                
+                // gap: 30px;
+                &>.hero-text{
+                    width: 426px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px;
+                    
+                    &>.btns{
+                        display: flex;
+                        align-items: center;
+                        gap: 32px;
+                        margin: 10px 0;
+    
+                        &>.get-btn{
+                            color: var(--color-white, #FFF);
+                            text-align: center;
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            letter-spacing: -0.64px;
+                            width: 178px;
+                            height: 82px;
+                            display: inline-flex;
+                            padding: 29px 40px;
+                            align-items: flex-end;
+                            gap: 10px;
+                            border-radius: 20px;
+                            background: var(--color-primary, #5956E9);
+                        }
+                        &>.see-btn{
+                            display: flex;
+                            color: var(--text-grey, #999FAE);
+                             gap: 10px;
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            letter-spacing: -0.64px;
+                        }
+                    }
+                    &>.scroll{
+                        display: flex;
+                        align-items: center;
+                        gap: 14px;
+                        margin: 74px 0;
+                        &>div{
+                            color: var(--text-grey, #999FAE);
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px; 
+                            letter-spacing: -0.4px;
+                        }
+                    }
+                }
+                &>.hero-img{
+                    &>.img-h1{
+                        transform: translate(531px,-856px);
+                    }
+                    &>.img-h2{
+                        transform: translate(142px,135px);
+                    }
+                    &>.img-h3{
+                        transform: translate(260px,100px);
+                    }
+                    &>.img-h4{
+                        transform: translate(56px,-1252px);
+                    }
+                    &>.img-h5{
+                        transform: translate(157px,-408px);
+                    }
+                    &>.img-h6{
+                        transform: translate(180px,-965px);
+                    }
+                    &>.img-h7{
+                        transform: translate(618px,-947px);
+                    }
+    
+                }
+            }
+        }
+    }
+    
+}

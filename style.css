@@ -9,16 +9,16 @@
 }
 
 header {
-  background-image: url(./images/Circle.svg);
+  background: url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 6\ \(2\).png), url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 5.png), url(./images/Circle\ 1.png), url(./images/Circle\ 2\ \(1\).png);
   background-repeat: no-repeat;
-  background-size: 100%;
-}
-header > .container {
-  max-width: 1440px;
+  background-size: 30%, 2%, 22%, 20%, 6%, 90%;
+  background-position-x: -182px, 612px, 747px, 830px, 1465px, 1148px;
+  background-position-y: -249px, 992px, 220px, 1610px, 715px, -44px;
   margin: 0 auto;
+  max-width: 100%;
 }
 header > .container > nav {
-  padding: 64px;
+  padding: 64px 100px;
 }
 header > .container > nav > .hero1 {
   display: flex;
@@ -100,7 +100,7 @@ header > .container > nav > .hero1 > .search-btn > .get-btn > a {
 }
 header > .container > .hero2 {
   display: flex;
-  margin: 0 100px;
+  margin: 0 200px;
   gap: 30px;
 }
 header > .container > .hero2 > .hero-text {
