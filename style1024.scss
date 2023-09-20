@@ -7,31 +7,47 @@
     font-family: Poppins;
     font-family: DM Sans;
 }
-@media screen and (max-width: 1024px){
+
+
+
+
+
+@media screen and (max-width: 1024px)  {
+    
+
+
+body{
+    
     
     header{
         overflow: hidden;
         background: url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 6\ \(2\).png), url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 5.png), url(./images/Circle\ 1.png), url(./images/Circle\ 2\ \(1\).png);
         background-repeat: no-repeat;
-        background-size: 30%, 2%, 22%, 20%, 6%, 90%;
-            background-position-x: -182px, 612px, 747px, 830px, 1465px, 1148px;
-        background-position-y: -249px,992px, 220px, 1610px, 715px, -44px;
-        max-width: 100%;
-        margin: 0 0;
+        background-size: 30%, 2%, 19%, 20%, 6%, 90%;
+        background-position-x: -140px, 489px, 380px, 495px, 821px, 707px;
+        background-position-y: -120px,883px, 271px, 1059px, 690px, 0px;
+        width: 100%;
         &>.container{
-            padding: 56px 0px;
-    
+            max-width: 1024px;
+            margin: 0 auto;
+            padding: 54px 36px;    
+            
             &>nav{
-               
-    
+                
                 &>.hero1{
                     display: flex;
                     align-items: center;
-                   gap: 90px;
-                    
+                    justify-content: space-between;
                     &>.home{
                         display: flex;
-                        gap: 50px;
+                        align-items: center;
+                        &>label{
+                            display: none;
+                        }
+                        &>input{
+                            display: none;
+                        }
+                        gap: 60px;
                         &>.collab{
                             display: flex;
                             align-items: center;
@@ -42,7 +58,7 @@
                                 font-size: 28px;
                                 font-style: normal;
                                 font-weight: 600;
-                                line-height: 97.827%;
+                                line-height: 97.827%; /* 27.392px */
                                 letter-spacing: -0.84px;
                                 &>.nuqta{
                                     color: var(--color-primary, #5956E9);
@@ -54,18 +70,19 @@
                                     letter-spacing: -0.84px;
                                 }
                             }
-    
+                            
                         }
                         &>ul{
                             display: flex;
                             align-items: center;
-                            gap: 50px;
+                            gap: 55px;
                             &>li{
-                               
+                                
                                 &>a{
                                     color: var(--text-grey, #999FAE);
+                                    /* Button */
                                     font-family: Poppins;
-                                    font-size: 15px;
+                                    font-size: 16px;
                                     font-style: normal;
                                     font-weight: 500;
                                     line-height: normal;
@@ -78,10 +95,10 @@
                                 &>.active{
                                     color: #292930;
                                     border-bottom: 2px solid #5956E9;
-    
+                                    
                                 }
                             }
-                           
+                            
                         }
                     }
                     &>.search-btn{
@@ -101,7 +118,7 @@
                                 font-weight: 500;
                                 line-height: normal;
                                 letter-spacing: -0.64px;
-    
+                                
                             }
                             width: 180px;
                             height: 72px;
@@ -113,27 +130,55 @@
                     }
                 }
             }
-    
+            
             &>.hero2{
                 display: flex;
-                margin: 0 90px;
-                
-                // gap: 30px;
+                margin: 121px  0 0 23px;
+                gap: 30px;
                 &>.hero-text{
-                    width: 426px;
+                    width: 443px;
                     display: flex;
                     flex-direction: column;
                     gap: 25px;
-                    
+                    &>h1{
+                        color: #292930;
+                        font-family: DM Sans;
+                        font-size: 96px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 99.327%; /* 95.354px */
+                        letter-spacing: -2.4px;
+                        &>b{
+                            color: var(--color-primary, #5956E9);
+                            
+                            /* Display/Left */
+                            font-family: DM Sans;
+                            font-size: 96px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 99.327%;
+                            letter-spacing: -2.4px;
+                        }
+                    }
+                    &>p{
+                        color: var(--text-grey, #999FAE);
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
                     &>.btns{
                         display: flex;
                         align-items: center;
                         gap: 32px;
                         margin: 10px 0;
-    
+                        
                         &>.get-btn{
                             color: var(--color-white, #FFF);
                             text-align: center;
+                            
+                            /* Button */
                             font-family: Poppins;
                             font-size: 16px;
                             font-style: normal;
@@ -143,7 +188,7 @@
                             width: 178px;
                             height: 82px;
                             display: inline-flex;
-                            padding: 29px 40px;
+                            padding: 29px 29px;
                             align-items: flex-end;
                             gap: 10px;
                             border-radius: 20px;
@@ -152,7 +197,8 @@
                         &>.see-btn{
                             display: flex;
                             color: var(--text-grey, #999FAE);
-                             gap: 10px;
+                            gap: 10px;
+                            padding: 29px 29px;
                             font-family: Poppins;
                             font-size: 16px;
                             font-style: normal;
@@ -179,30 +225,32 @@
                 }
                 &>.hero-img{
                     &>.img-h1{
-                        transform: translate(531px,-856px);
+                        transform: translate(444px,-856px);
+                        
                     }
                     &>.img-h2{
-                        transform: translate(142px,135px);
+                        transform: translate(55px,135px);
                     }
                     &>.img-h3{
-                        transform: translate(260px,100px);
+                        transform: translate(173px,100px);
                     }
                     &>.img-h4{
-                        transform: translate(56px,-1252px);
+                        transform: translate(-37px,-1252px);
                     }
                     &>.img-h5{
-                        transform: translate(157px,-408px);
+                        transform: translate(70px,-408px);
                     }
                     &>.img-h6{
-                        transform: translate(180px,-965px);
+                        transform: translate(93px,-965px);
                     }
                     &>.img-h7{
-                        transform: translate(618px,-947px);
+                        transform: translate(531px,-947px);
                     }
-    
+                    
                 }
             }
         }
     }
+}
     
 }

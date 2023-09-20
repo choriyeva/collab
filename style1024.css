@@ -9,43 +9,51 @@
 }
 
 @media screen and (max-width: 1024px) {
-  header {
+  body header {
     overflow: hidden;
     background: url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 6\ \(2\).png), url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 5.png), url(./images/Circle\ 1.png), url(./images/Circle\ 2\ \(1\).png);
     background-repeat: no-repeat;
-    background-size: 30%, 2%, 22%, 20%, 6%, 90%;
-    background-position-x: -182px, 612px, 747px, 830px, 1465px, 1148px;
-    background-position-y: -249px, 992px, 220px, 1610px, 715px, -44px;
-    max-width: 100%;
-    margin: 0 0;
+    background-size: 30%, 2%, 19%, 20%, 6%, 90%;
+    background-position-x: -140px, 489px, 380px, 495px, 821px, 707px;
+    background-position-y: -120px, 883px, 271px, 1059px, 690px, 0px;
+    width: 100%;
   }
-  header > .container {
-    padding: 56px 0px;
+  body header > .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 54px 36px;
   }
-  header > .container > nav > .hero1 {
+  body header > .container > nav > .hero1 {
     display: flex;
     align-items: center;
-    gap: 90px;
+    justify-content: space-between;
   }
-  header > .container > nav > .hero1 > .home {
+  body header > .container > nav > .hero1 > .home {
     display: flex;
-    gap: 50px;
+    align-items: center;
+    gap: 60px;
   }
-  header > .container > nav > .hero1 > .home > .collab {
+  body header > .container > nav > .hero1 > .home > label {
+    display: none;
+  }
+  body header > .container > nav > .hero1 > .home > input {
+    display: none;
+  }
+  body header > .container > nav > .hero1 > .home > .collab {
     display: flex;
     align-items: center;
     gap: 11px;
   }
-  header > .container > nav > .hero1 > .home > .collab > .collab-text {
+  body header > .container > nav > .hero1 > .home > .collab > .collab-text {
     color: var(--text-dark, #292930);
     font-family: Poppins;
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
-    line-height: 97.827%;
+    line-height: 97.827%; /* 27.392px */
     letter-spacing: -0.84px;
   }
-  header > .container > nav > .hero1 > .home > .collab > .collab-text > .nuqta {
+  body header > .container > nav > .hero1 > .home > .collab > .collab-text > .nuqta {
     color: var(--color-primary, #5956E9);
     font-family: Poppins;
     font-size: 28px;
@@ -54,37 +62,38 @@
     line-height: 97.827%;
     letter-spacing: -0.84px;
   }
-  header > .container > nav > .hero1 > .home > ul {
+  body header > .container > nav > .hero1 > .home > ul {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 55px;
   }
-  header > .container > nav > .hero1 > .home > ul > li > a {
+  body header > .container > nav > .hero1 > .home > ul > li > a {
     color: var(--text-grey, #999FAE);
+    /* Button */
     font-family: Poppins;
-    font-size: 15px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.64px;
   }
-  header > .container > nav > .hero1 > .home > ul > li a:hover {
+  body header > .container > nav > .hero1 > .home > ul > li a:hover {
     color: #292930;
     border-bottom: 2px solid #5956E9;
   }
-  header > .container > nav > .hero1 > .home > ul > li > .active {
+  body header > .container > nav > .hero1 > .home > ul > li > .active {
     color: #292930;
     border-bottom: 2px solid #5956E9;
   }
-  header > .container > nav > .hero1 > .search-btn {
+  body header > .container > nav > .hero1 > .search-btn {
     display: flex;
     align-items: center;
     gap: 40px;
   }
-  header > .container > nav > .hero1 > .search-btn > .search {
+  body header > .container > nav > .hero1 > .search-btn > .search {
     color: #292930;
   }
-  header > .container > nav > .hero1 > .search-btn > .get-btn {
+  body header > .container > nav > .hero1 > .search-btn > .get-btn {
     width: 180px;
     height: 72px;
     flex-shrink: 0;
@@ -92,7 +101,7 @@
     background: #FAB8C4;
     padding: 24px 47px;
   }
-  header > .container > nav > .hero1 > .search-btn > .get-btn > a {
+  body header > .container > nav > .hero1 > .search-btn > .get-btn > a {
     color: #2522BA;
     text-align: center;
     font-family: Poppins;
@@ -102,25 +111,54 @@
     line-height: normal;
     letter-spacing: -0.64px;
   }
-  header > .container > .hero2 {
+  body header > .container > .hero2 {
     display: flex;
-    margin: 0 90px;
+    margin: 121px 0 0 23px;
+    gap: 30px;
   }
-  header > .container > .hero2 > .hero-text {
-    width: 426px;
+  body header > .container > .hero2 > .hero-text {
+    width: 443px;
     display: flex;
     flex-direction: column;
     gap: 25px;
   }
-  header > .container > .hero2 > .hero-text > .btns {
+  body header > .container > .hero2 > .hero-text > h1 {
+    color: #292930;
+    font-family: DM Sans;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 99.327%; /* 95.354px */
+    letter-spacing: -2.4px;
+  }
+  body header > .container > .hero2 > .hero-text > h1 > b {
+    color: var(--color-primary, #5956E9);
+    /* Display/Left */
+    font-family: DM Sans;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 99.327%;
+    letter-spacing: -2.4px;
+  }
+  body header > .container > .hero2 > .hero-text > p {
+    color: var(--text-grey, #999FAE);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body header > .container > .hero2 > .hero-text > .btns {
     display: flex;
     align-items: center;
     gap: 32px;
     margin: 10px 0;
   }
-  header > .container > .hero2 > .hero-text > .btns > .get-btn {
+  body header > .container > .hero2 > .hero-text > .btns > .get-btn {
     color: var(--color-white, #FFF);
     text-align: center;
+    /* Button */
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -130,16 +168,17 @@
     width: 178px;
     height: 82px;
     display: inline-flex;
-    padding: 29px 40px;
+    padding: 29px 29px;
     align-items: flex-end;
     gap: 10px;
     border-radius: 20px;
     background: var(--color-primary, #5956E9);
   }
-  header > .container > .hero2 > .hero-text > .btns > .see-btn {
+  body header > .container > .hero2 > .hero-text > .btns > .see-btn {
     display: flex;
     color: var(--text-grey, #999FAE);
     gap: 10px;
+    padding: 29px 29px;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -147,13 +186,13 @@
     line-height: normal;
     letter-spacing: -0.64px;
   }
-  header > .container > .hero2 > .hero-text > .scroll {
+  body header > .container > .hero2 > .hero-text > .scroll {
     display: flex;
     align-items: center;
     gap: 14px;
     margin: 74px 0;
   }
-  header > .container > .hero2 > .hero-text > .scroll > div {
+  body header > .container > .hero2 > .hero-text > .scroll > div {
     color: var(--text-grey, #999FAE);
     font-family: Poppins;
     font-size: 16px;
@@ -162,25 +201,25 @@
     line-height: 24px;
     letter-spacing: -0.4px;
   }
-  header > .container > .hero2 > .hero-img > .img-h1 {
-    transform: translate(531px, -856px);
+  body header > .container > .hero2 > .hero-img > .img-h1 {
+    transform: translate(444px, -856px);
   }
-  header > .container > .hero2 > .hero-img > .img-h2 {
-    transform: translate(142px, 135px);
+  body header > .container > .hero2 > .hero-img > .img-h2 {
+    transform: translate(55px, 135px);
   }
-  header > .container > .hero2 > .hero-img > .img-h3 {
-    transform: translate(260px, 100px);
+  body header > .container > .hero2 > .hero-img > .img-h3 {
+    transform: translate(173px, 100px);
   }
-  header > .container > .hero2 > .hero-img > .img-h4 {
-    transform: translate(56px, -1252px);
+  body header > .container > .hero2 > .hero-img > .img-h4 {
+    transform: translate(-37px, -1252px);
   }
-  header > .container > .hero2 > .hero-img > .img-h5 {
-    transform: translate(157px, -408px);
+  body header > .container > .hero2 > .hero-img > .img-h5 {
+    transform: translate(70px, -408px);
   }
-  header > .container > .hero2 > .hero-img > .img-h6 {
-    transform: translate(180px, -965px);
+  body header > .container > .hero2 > .hero-img > .img-h6 {
+    transform: translate(93px, -965px);
   }
-  header > .container > .hero2 > .hero-img > .img-h7 {
-    transform: translate(618px, -947px);
+  body header > .container > .hero2 > .hero-img > .img-h7 {
+    transform: translate(531px, -947px);
   }
 }/*# sourceMappingURL=style1024.css.map */
