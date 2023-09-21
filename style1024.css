@@ -11,7 +11,7 @@
 @media screen and (max-width: 1024px) {
   body header {
     overflow: hidden;
-    background: url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 6\ \(2\).png), url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 5.png), url(./images/Circle\ 1.png), url(./images/Circle\ 2\ \(1\).png);
+    background: url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 6\ \(2\).png), url(./images/Ellipse\ 4\ \(1\).png), url(./images/Ellipse\ 743.png), url(./images/Circle\ 1.png), url(./images/Circle\ 2\ \(1\).png);
     background-repeat: no-repeat;
     background-size: 30%, 2%, 19%, 20%, 6%, 90%;
     background-position-x: -140px, 489px, 380px, 495px, 821px, 707px;

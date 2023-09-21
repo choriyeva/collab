@@ -11,11 +11,11 @@
 @media screen and (max-width: 375px) {
   body header {
     overflow: hidden;
-    background: url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 6\ \(2\).png), url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 5.png), url(./images/Circle\ 1.png), url(./images/Circle\ 2\ \(1\).png);
+    background: url(./images/Ellipse\ 4\ \(1\).png), url(./images/Circle\ 6\ \(2\).png), url(./images/Ellipse\ 4\ \(1\).png), url(./images/Ellipse\ 743.png), url(./images/Circle\ 1.png), url(./images/Circle\ 2\ \(1\).png);
     background-repeat: no-repeat;
-    background-size: 30%, 2%, 22%, 20%, 6%, 90%;
-    background-position-x: -257px, 612px, 672px, 830px, 1390px, 1148px;
-    background-position-y: -274px, 992px, 195px, 1610px, 690px, -44px;
+    background-size: 9%, 6%, 22%, 49%, 6%, 49%;
+    background-position-x: 206px, 301px, 672px, 252px, 1390px, 258px;
+    background-position-y: 350px, 542px, 195px, 940px, 690px, 160px;
     width: 100%;
   }
   body header > .container {
@@ -103,7 +103,7 @@
     color: var(--color-primary, #5956E9);
     /* Display/Left */
     font-family: DM Sans;
-    font-size: 96px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 500;
     line-height: 99.327%;
@@ -169,52 +169,52 @@
     letter-spacing: -0.4px;
   }
   body header > .container > .hero2 > .hero-img > .img-h1 {
-    transform: translate(320px, -856px);
+    transform: translate(200px, -451px);
   }
   body header > .container > .hero2 > .hero-img > .img-h1 > img {
-    width: 100px;
-    height: 100px;
+    width: 165px;
+    height: 157px;
   }
   body header > .container > .hero2 > .hero-img > .img-h2 {
-    transform: translate(-69px, 135px);
+    transform: translate(-20px, 135px);
   }
   body header > .container > .hero2 > .hero-img > .img-h2 > img {
-    width: 100px;
-    height: 100px;
+    width: 414px;
+    height: 324px;
   }
   body header > .container > .hero2 > .hero-img > .img-h3 {
-    transform: translate(49px, 100px);
+    transform: translate(33px, 100px);
   }
   body header > .container > .hero2 > .hero-img > .img-h3 > img {
-    width: 100px;
-    height: 100px;
+    width: 209px;
+    height: 32px;
   }
   body header > .container > .hero2 > .hero-img > .img-h4 {
-    transform: translate(-155px, -1252px);
+    transform: translate(-66px, -752px);
   }
   body header > .container > .hero2 > .hero-img > .img-h4 > img {
-    width: 100px;
-    height: 100px;
+    width: 142px;
+    height: 85px;
   }
   body header > .container > .hero2 > .hero-img > .img-h5 {
-    transform: translate(-54px, -408px);
+    transform: translate(-11px, -221px);
   }
   body header > .container > .hero2 > .hero-img > .img-h5 > img {
-    width: 100px;
-    height: 100px;
+    width: 317px;
+    height: 211px;
   }
   body header > .container > .hero2 > .hero-img > .img-h6 {
-    transform: translate(-31px, -965px);
+    transform: translate(-8px, -538px);
   }
   body header > .container > .hero2 > .hero-img > .img-h6 > img {
-    width: 100px;
-    height: 100px;
+    width: 315px;
+    height: 222px;
   }
   body header > .container > .hero2 > .hero-img > .img-h7 {
-    transform: translate(407px, -947px);
+    transform: translate(223px, -553px);
   }
   body header > .container > .hero2 > .hero-img > .img-h7 > img {
     width: 100px;
-    height: 100px;
+    height: 48px;
   }
 }/*# sourceMappingURL=style375.css.map */
