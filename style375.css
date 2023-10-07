@@ -38,12 +38,12 @@
   body header > .container > nav > .hero1 > .home > input {
     display: none;
   }
-  body header > .container > nav > .hero1 > .home > .collab {
+  #salom:checked + nav .nav-bar body header > .container > nav > .hero1 > .home > .collab {
     display: flex;
     align-items: center;
     gap: 11px;
   }
-  body header > .container > nav > .hero1 > .home > .collab > .collab-text {
+  #salom:checked + nav .nav-bar body header > .container > nav > .hero1 > .home > .collab > .collab-text {
     color: var(--text-dark, #292930);
     font-family: Poppins;
     font-size: 28px;
@@ -52,7 +52,7 @@
     line-height: 97.827%; /* 27.392px */
     letter-spacing: -0.84px;
   }
-  body header > .container > nav > .hero1 > .home > .collab > .collab-text > .nuqta {
+  #salom:checked + nav .nav-bar body header > .container > nav > .hero1 > .home > .collab > .collab-text > .nuqta {
     color: var(--color-primary, #5956E9);
     font-family: Poppins;
     font-size: 28px;
